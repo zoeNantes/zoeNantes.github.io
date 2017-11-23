@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_43b60e45_11b8_40b6_b0c3_8a1da6328fc3"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:label xml:lang="en">has_topping</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_43b60e45_11b8_40b6_b0c3_8a1da6328fc3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_43b60e45_11b8_40b6_b0c3_8a1da6328fc3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">relational_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_63148161_52c3_4de8_8016_2a244047132a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_63148161_52c3_4de8_8016_2a244047132a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">modifier_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_63148161_52c3_4de8_8016_2a244047132a"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:label xml:lang="en">has_spiciness</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_f3ee7160_e26e_44da_baec_feec55eb3ef0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_f3ee7160_e26e_44da_baec_feec55eb3ef0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_43b60e45_11b8_40b6_b0c3_8a1da6328fc3"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e5a4dd1c_53b4_432b_89ff_42ccacdae5a7"/>
+        <rdfs:label xml:lang="en">has_base</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d"/>
+        <rdfs:label xml:lang="en">Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_136e45d2_c052_47de_a184_3f9a925ecbe4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_136e45d2_c052_47de_a184_3f9a925ecbe4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7b305e7e_b842_42dd_9914_56608d490466"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c"/>
+        <rdfs:label xml:lang="en">Onion_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_1be8115b_85af_4fcc_a988_0b8549a5648a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_1be8115b_85af_4fcc_a988_0b8549a5648a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_41374bb3_5a07_4253_ac7f_ad9bbba0cf63"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_80700b62_31df_4e60_8103_14c0dda10043"/>
+        <rdfs:label xml:lang="en">Tuna_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:label xml:lang="en">Meet_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8b002959_2f12_4954_98f2_720d8797f3ef"/>
+        <rdfs:label xml:lang="en">Hot_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_41374bb3_5a07_4253_ac7f_ad9bbba0cf63 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_41374bb3_5a07_4253_ac7f_ad9bbba0cf63">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:label xml:lang="en">Seafood_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8b002959_2f12_4954_98f2_720d8797f3ef"/>
+        <rdfs:label xml:lang="en">Mild_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_48344b59_d373_4e16_9c26_9f9ebab0d08e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_48344b59_d373_4e16_9c26_9f9ebab0d08e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Cheese_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_53247f4a_0738_42f5_8e75_5cf174a3ff49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_53247f4a_0738_42f5_8e75_5cf174a3ff49">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pepperoni_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_6759d0d2_0f88_4007_956b_8c1378bac4aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_6759d0d2_0f88_4007_956b_8c1378bac4aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Seafood_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7b305e7e_b842_42dd_9914_56608d490466 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7b305e7e_b842_42dd_9914_56608d490466">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:label xml:lang="en">Vegetable_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8b002959_2f12_4954_98f2_720d8797f3ef"/>
+        <rdfs:label xml:lang="en">Medium_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_80700b62_31df_4e60_8103_14c0dda10043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_80700b62_31df_4e60_8103_14c0dda10043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_41374bb3_5a07_4253_ac7f_ad9bbba0cf63"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Anchovy_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d">
+        <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8b002959_2f12_4954_98f2_720d8797f3ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8b002959_2f12_4954_98f2_720d8797f3ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d61bdf7b_4eab_4c2b_a159_d9fbddd6a7f4"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Spiciness_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8f0f5d6b_4555_4bb7_a6d6_f07a7c56b0cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_8f0f5d6b_4555_4bb7_a6d6_f07a7c56b0cd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_9fb45726_be7d_4ca0_bd20_4ed069a81f7b"/>
+        <rdfs:label xml:lang="en">Pinapple_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d"/>
+        <rdfs:label xml:lang="en">Pizza_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_97532ca9_3023_4723_bb3f_b8eedf2078b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_97532ca9_3023_4723_bb3f_b8eedf2078b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_48344b59_d373_4e16_9c26_9f9ebab0d08e"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793"/>
+        <rdfs:label xml:lang="en">Gorganzolla_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_997c9a5d_c74b_4cb0_84b9_642d54b7c163 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_997c9a5d_c74b_4cb0_84b9_642d54b7c163">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Maguerita_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_9fb45726_be7d_4ca0_bd20_4ed069a81f7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_9fb45726_be7d_4ca0_bd20_4ed069a81f7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Fruit_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_48344b59_d373_4e16_9c26_9f9ebab0d08e"/>
+        <rdfs:label xml:lang="en">Mozzarella_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_af39f56f_0ec5_4a7c_86ef_b04acfcb2b10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_af39f56f_0ec5_4a7c_86ef_b04acfcb2b10">
+        <rdfs:label xml:lang="en">Domain_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_b9c4d28e_e3ee_4298_b22c_3520a1219170 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_b9c4d28e_e3ee_4298_b22c_3520a1219170">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Ham_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c05960b3_275b_4fef_9716_c0f23597ce67 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c05960b3_275b_4fef_9716_c0f23597ce67">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:label xml:lang="en">Vegetarian_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7b305e7e_b842_42dd_9914_56608d490466"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Tomato_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d0fa459c_d79d_4232_96e8_917926490f79 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d0fa459c_d79d_4232_96e8_917926490f79">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Spicy_beef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d61bdf7b_4eab_4c2b_a159_d9fbddd6a7f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d61bdf7b_4eab_4c2b_a159_d9fbddd6a7f4">
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_def2cb78_a3b4_42c9_a2bd_ba7f0c61a2e9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_def2cb78_a3b4_42c9_a2bd_ba7f0c61a2e9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Cheesy_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e5a4dd1c_53b4_432b_89ff_42ccacdae5a7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e5a4dd1c_53b4_432b_89ff_42ccacdae5a7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d"/>
+        <rdfs:label xml:lang="en">Pizza_base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e667b5f0_3d77_48ca_b17e_f3b65320c23f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e667b5f0_3d77_48ca_b17e_f3b65320c23f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_a2c8d4bb_74c1_45a0_92da_7b85e415c793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_04714e19_68c4_4cd0_808d_9d3d6eed97c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c36a16ab_df46_4415_8335_4ecfa047c64c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLObjectProperty_cc713fc6_73f0_4a61_98ec_2a2eda5cf290"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Hot_and_spicy_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_07355d80_da43_4410_94d2_4bc7fce70c77"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_901d7e95_3fcd_437d_9667_d705f82e6161"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e5a4dd1c_53b4_432b_89ff_42ccacdae5a7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_2783a0c8_3752_4b4d_a3f7_e5323cd621fa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_41374bb3_5a07_4253_ac7f_ad9bbba0cf63"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_48344b59_d373_4e16_9c26_9f9ebab0d08e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7b305e7e_b842_42dd_9914_56608d490466"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_9fb45726_be7d_4ca0_bd20_4ed069a81f7b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_290dd390_a6e4_46a0_ae18_8629cbd6f2b2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_4495e273_336a_46df_b181_5258c3cb3a21"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_7f09bd24_3474_4208_951a_b4e659ca0e09"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_53247f4a_0738_42f5_8e75_5cf174a3ff49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_b9c4d28e_e3ee_4298_b22c_3520a1219170"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d0fa459c_d79d_4232_96e8_917926490f79"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_6759d0d2_0f88_4007_956b_8c1378bac4aa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_997c9a5d_c74b_4cb0_84b9_642d54b7c163"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_c05960b3_275b_4fef_9716_c0f23597ce67"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_def2cb78_a3b4_42c9_a2bd_ba7f0c61a2e9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_e667b5f0_3d77_48ca_b17e_f3b65320c23f"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_83cc5d01_f15a_4c1a_93d8_609fd981187d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_af39f56f_0ec5_4a7c_86ef_b04acfcb2b10"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-10#OWLClass_d61bdf7b_4eab_4c2b_a159_d9fbddd6a7f4"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-13="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLObjectProperty_a6c09308_733c_4295_b090_23df4df219ed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLObjectProperty_a6c09308_733c_4295_b090_23df4df219ed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777"/>
+        <rdfs:label xml:lang="en">teaches</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLObjectProperty_b7073acb_4a80_4bfd_a17d_3f10dc532e7c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLObjectProperty_b7073acb_4a80_4bfd_a17d_3f10dc532e7c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9ac50136_c8b5_4e0b_bf6e_997f5d157f4b"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777"/>
+        <rdfs:label xml:lang="en">studies</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="en">courseID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="en">staffID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_bc3e372c_6c5a_441e_9e82_7f73c3e769e7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLDataProperty_bc3e372c_6c5a_441e_9e82_7f73c3e769e7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9ac50136_c8b5_4e0b_bf6e_997f5d157f4b"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="en">studentID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3"/>
+        <rdfs:label xml:lang="en">Module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9ac50136_c8b5_4e0b_bf6e_997f5d157f4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9ac50136_c8b5_4e0b_bf6e_997f5d157f4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3"/>
+        <rdfs:label xml:lang="en">Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3">
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_c913592d_e225_45b2_95b4_7e2f11f8c638 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_c913592d_e225_45b2_95b4_7e2f11f8c638">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_ff7bc7ae_c77d_40df_8d40_a168ca8ecb4e"/>
+        <rdfs:label xml:lang="en">CSModule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9cd1cc8d_63e0_492f_96d5_9debb5a50ab3"/>
+        <rdfs:label xml:lang="en">Lecturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_ff7bc7ae_c77d_40df_8d40_a168ca8ecb4e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_ff7bc7ae_c77d_40df_8d40_a168ca8ecb4e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_4ed0cc58_c23d_418d_93f5_5c7e1258c777"/>
+        <rdfs:label xml:lang="en">MathModule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_3bb8a8a3_abcf_4bb9_a26c_e2b56cc4947f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_3bb8a8a3_abcf_4bb9_a26c_e2b56cc4947f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3"/>
+        <OWLObjectProperty_a6c09308_733c_4295_b090_23df4df219ed rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_bdfc30f5_04c6_411c_b6d4_d5cefa9c88ab"/>
+        <OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincent C</OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35>
+        <OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24680</OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c>
+        <rdfs:label xml:lang="en">Vincent C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_7a5ef458_8548_45a1_bd05_0224efe0cf9c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_7a5ef458_8548_45a1_bd05_0224efe0cf9c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_c913592d_e225_45b2_95b4_7e2f11f8c638"/>
+        <OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00102</OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc>
+        <rdfs:label xml:lang="en">CS102</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_a012fca1_906f_423d_b5b7_15bb933cf38e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_a012fca1_906f_423d_b5b7_15bb933cf38e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_9ac50136_c8b5_4e0b_bf6e_997f5d157f4b"/>
+        <OWLObjectProperty_b7073acb_4a80_4bfd_a17d_3f10dc532e7c rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_7a5ef458_8548_45a1_bd05_0224efe0cf9c"/>
+        <OWLObjectProperty_b7073acb_4a80_4bfd_a17d_3f10dc532e7c rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_bdfc30f5_04c6_411c_b6d4_d5cefa9c88ab"/>
+        <OWLObjectProperty_b7073acb_4a80_4bfd_a17d_3f10dc532e7c rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_f859bac0_1463_4f0c_9981_bc6a5829dcd8"/>
+        <OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirana B</OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35>
+        <OWLDataProperty_bc3e372c_6c5a_441e_9e82_7f73c3e769e7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</OWLDataProperty_bc3e372c_6c5a_441e_9e82_7f73c3e769e7>
+        <rdfs:label xml:lang="en">Sirana B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_b5003d59_c23c_4f53_8c07_250269461575 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_b5003d59_c23c_4f53_8c07_250269461575">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_fe329ed4_06bb_4686_9a57_5747f0ad79a3"/>
+        <OWLObjectProperty_a6c09308_733c_4295_b090_23df4df219ed rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_7a5ef458_8548_45a1_bd05_0224efe0cf9c"/>
+        <OWLObjectProperty_a6c09308_733c_4295_b090_23df4df219ed rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_f859bac0_1463_4f0c_9981_bc6a5829dcd8"/>
+        <OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benoit A</OWLDataProperty_9b087918_ba30_4667_888e_138c47628d35>
+        <OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13579</OWLDataProperty_9e89fe92_9242_457c_aa1b_69754bbfb20c>
+        <rdfs:label xml:lang="en">Benoit A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_bdfc30f5_04c6_411c_b6d4_d5cefa9c88ab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_bdfc30f5_04c6_411c_b6d4_d5cefa9c88ab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_ff7bc7ae_c77d_40df_8d40_a168ca8ecb4e"/>
+        <OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11101</OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc>
+        <rdfs:label xml:lang="en">Math101</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_f859bac0_1463_4f0c_9981_bc6a5829dcd8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLNamedIndividual_f859bac0_1463_4f0c_9981_bc6a5829dcd8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zoe/ontologies/2017/10/untitled-ontology-13#OWLClass_c913592d_e225_45b2_95b4_7e2f11f8c638"/>
+        <OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00101</OWLDataProperty_6cfc0e3b_1836_4908_aa1c_2661c5d208bc>
+        <rdfs:label xml:lang="en">CS101</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
